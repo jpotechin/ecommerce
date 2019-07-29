@@ -5,7 +5,6 @@ import CustomButton from "../custom-button/custom-button.component";
 import { addItem } from "../../redux/cart/cart.actions";
 
 import "./collection-item.style.scss";
-import { dispatch } from "C:/Users/Joseph Potechin/AppData/Local/Microsoft/TypeScript/3.5/node_modules/rxjs/internal/observable/pairs";
 
 const CollectionItem = ({ item, addItem }) => {
   const { name, price, imageUrl } = item;
